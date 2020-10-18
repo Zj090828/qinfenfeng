@@ -213,20 +213,22 @@ a
     justify-content:space-around;
     margin-top:100px;
 }
-.choose{
+.choose
+{
     margin:0 15px;
     width:20%;
     height: 40px;
-  }
-  .choose select
-  {
+    border:2px solid #e74f4d;
+}
+.choose select
+{
     width: 100%;
     height: 100%;
     background: url("../") no-repeat scroll right center transparent;
-  }
+}
 .search
 {
-    border:1px solid black;
+    border:2px solid #e74f4d;
     width:100px;
 }
 .part5
@@ -478,261 +480,147 @@ a
     width:100%;
     height:100%;
 }
-.part8
-{
-    float:left;
-    margin-top:200px;
-    margin-bottom:200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 300px; 
-}
 .part8-1
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5px;
-    font-size: 1.3em;
-    width: 200px;
-    height: 30px; 
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:50px;
+    color:#7d7d7ebb;
 }
-.part8-2
+.part8-1-1
 {
-    width: 30px;
-    height: 2px; 
+    display: block;
+    color: #000;
+    font-size: 2rem;
 }
-.part8-3 
+.part8-2 
 {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    font-size: .75em ;
-    margin: 20px 0 40px 0;
-    width: 420px;
-    height: 40px; 
-    color:rgba(48, 47, 47, 0.671)
+    margin-bottom: 20px;
 }
+.part8-2-1 
+{ 
+    flex: 0.5;
+    margin: 3.2% 10%;
+}
+.part8-2-2 
+{
+    flex: 1;
+}
+
+.part8-2-2 ul 
+{
+    padding-left: 0;
+}
+.part8-2-2 li,
+.part8-2-2 textarea 
+{
+    background-color: #ededee;
+    padding: 10px;
+}
+.part8-2-2 li 
+{
+    min-width: 274px;
+    width: 43%;
+    margin: 5px 0;
+}
+.part8-2-2 textarea 
+{
+    width: 90%;
+}
+.part8-2-2 ul li:hover,
+.part8-2-2 textarea:hover 
+{
+    color: #000;
+}
+.part8-2-2 input 
+{
+    background-color: #ededee;
+    color: black;
+    border: none;
+}
+.part8-2-3:hover
+{
+    background-color: #e74f4d;
+    color: #fff;
+    transition: all .5s;
+}
+
+.part8-2-3
+{
+    width: 94%;
+    height: 3rem;
+    margin-top: 3%;
+}
+.part8 h5 
+{
+    color: #000;
+    margin-bottom:10px;
+    margin-top:5px;
+}
+
 .part9
 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 450px;
-}
-.part9 .left
-{
-    margin: 0;
-    width: 30%;
-    height: 100%;
-}
-.part9 .left.top
-{
-    width: 100%;
-    height: 114px;
-}
-.part9 .left .top .title
-{
-    width: 100%;
-    height: 30%;
-} 
-.part9 .left .top .content
-{
-    font-size: .75em;
-      width: 100%;
-      height: 50%;
-}
-.part9 .left .top .more
-{
-    text-align: right;
-      font-size: .65em;
-      color: gray;
-      width: 100%;
-      height: 20%;
-}
-.part9 .left .middle
-{
-    margin: 30px 0 20px 0;
-      width: 100%;
-      height: 114px;
-}
-.part9.left .middle .title
-{
-    width: 100%;
-    height: 30%;
-}
-.part9.left .middle .content
-{
-    font-size: .65em;
-    width: 100%;
-    height: 50%;
-}
-.part9 .left .middle .more
-{
-    text-align: right;
-      font-size: .65em;
-      color: gray;
-      width: 100%;
-      height: 20%;
-}
-.part9.left .bottom
-{
-    width: 100%;
-    height: 64px;
-}
-.part9.left .bottom .title
-{
-    width: 100%;
-    height: 60%;
-}
-.part9 .left .bottom .more
-{
-    text-align: right;
-    font-size: .5em;
-    color: gray;
-    width: 100%;
-    height: 40%;
-}
-.part9.right
-{
-    width: 50%;
-    height: 100%;
-}
-.part9.right .top
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    height: 30%;
-}
-.part9.right .top .topsame
-{
-    display: flex;
-    align-items: center;
-    font-size: .75em;
-    padding-left: 15px;
-    background: rgba(226, 226, 226, 0.59);
-    width: 46%;
-    height: 35%;
-}
-.part9 .right .middle
-{
-    font-size: .75em;
-      padding-left: 15px;
-      background: rgba(226, 226, 226, 0.59);
-      margin: 0 0 15px 0;
-      width: calc(100% - 15px);
-      height: 30%;
-}
-.part9 .right .bottom
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(226, 226, 226, 0.59);
-    width: 100%;
-    height: 10%;
-}
-footer
-{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 420px;
-}
-.part10
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 85%;
-    background-color:#32363e;
-}
-.part10 .top .title
-{
+    position: relative;
+    background-color: #32353e;
     text-align: center;
-      font-size: 1.2em;
-      font-weight: bold;
-      width: 90px;
-      height: 25px;
+    padding: 3.5%;
 }
-.part10 .top .text
+.part9 h3
 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: .75em;
-    font-weight: bold;
-    margin-top: 10px;
-    width: 480px;
-    height: 50px;
+    margin-bottom: 20px;
 }
-.part10 .top .search
+.part9 input 
 {
-    display: flex;
-    margin:30px 0;
-    width: 500px;
-    height: 40px;
+    color: black;
+    padding: 10px 180px 10px 10px;
 }
-.part10 .top .search .left
+.part9 p
 {
-    width: 85%;
-    height: 100%;
+    margin-bottom: 30px;
+    font-size: 10px;
+    color:rgb(145, 142, 142);
 }
-.part10 .top .search .left input
+.part9-1
 {
-    width: 100%;
-    height: 100%;
+    display: inline-block;
+    background-color: #686166;
+    color: white;
+    height: 45px;
+    width: 75px;
+    line-height: 45px;
+    margin-left: -5px;
 }
-.part10.top .search .right
+.part9 ul 
 {
-    width: 15%;
-    height: 100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding-left:400px;
+    padding-right:400px;
 }
-.part10 .top .search .right input
+.part9-2
 {
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    background-color: #2f3038;
+    right: 0;
+    left: 0;
+    height:50px;
+    line-height: 50px;
 }
-.part10 .top .logo
+
+.part9-2 span 
 {
-    display: flex;
-    width: 200px;
-    height: 50px;
+    position: absolute;
+    left: 50px;
 }
-.part10 .top .logo .logosame
+
+.part9 h3,.part9 p,.part9 span,.part9 a 
 {
-    width:25%;
-    height: 100%;
-}
-.part10 .bottom 
-{
-    display: flex;
-    justify-content: space-between;
-    font-size: .75em;
-    width: 100%;
-    height: 15%; 
-}
-.part10 .bottom .left
-{
-    display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 280px;
-      height: 60px;
-}
-.part10 .bottom .right
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 60px;
+    color: #fff;
 }
